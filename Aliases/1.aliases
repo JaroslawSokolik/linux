@@ -1,0 +1,5 @@
+"""
+To create an alias add to .bash_aliases
+
+alias name_of_alias='command'
+"""
