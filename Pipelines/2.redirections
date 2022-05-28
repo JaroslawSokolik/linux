@@ -1,0 +1,13 @@
+"""
+Redirecting STDOUT, STDERR
+1.To redirect STDOUT to file {command > output.txt} - it will save and truncate(overwrite the file)
+2.To redirect STDOUT to file {command >> output.txt} - it will save and append(add to the file)
+3.To redirect STDERR use {command 2> errors.txt} - can be use with >>
+4.To redirect both STDERR and STDOUT use {command &> output.txt} - can be use with >>
+5.To redirect STDERR and STDOUT to seperate files for example {command >> output.txt 2>>errors.txt}
+
+Redirecting STDIN
+
+1.To redirect file content to STDIN {command < output.txt}
+2.To read from file and redirect to command, then redirect output to another file {command < output.txt > new_output.txt}
+"""

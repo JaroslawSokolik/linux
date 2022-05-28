@@ -1,0 +1,13 @@
+"""
+1.PIPING STDOUT TO STDIN
+
+To pipe STDOUT to STDIN {command1 | command2} e.g {date | wc -m}
+Redirecting available {command1 | command2 > output}, as well as multiple piping {command1 | command2 | command3}
+
+2.PIPING STDOUT TO STDIN as well as redirecting to file by {tee}
+
+{command1 | tee output.txt | command2} e.g {ls |tee ls.txt | wc -w}
+
+3.PIPING STDOUT TO COMMAND LINE ARGUMENTS to pipe to commands that doesn't accept STDIN to convert
+
+To pipe STDOUT to Command line argument {command1 | xargs command2} e.g {ls | xargs echo}

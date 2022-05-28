@@ -1,0 +1,5 @@
+"""
+Standard Input - In standard connect to keyboard
+Standard Output - By standard goes back to terminal, can be redirected.
+Standard Error - Also automatically connected to terminal, can be redirected
+"""

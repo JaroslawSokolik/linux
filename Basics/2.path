@@ -1,0 +1,5 @@
+"""
+
+echo $PATH - to check path folders, commands are searched from left to right
+which {command_name} - to check folder location of the command
+"""
