@@ -1,0 +1,30 @@
+"""
+In linux file extensions doesnt matter.
+{file} command - is used to determine file type.
+
+############Wildcards############
+
+* Wildcard examples
+{ls *} - list all of the content of the home folder
+{ls D*} - list all of the content of all folders starts with D
+{ls *.txt} - list all files in the folder with .txt extension
+{ls ?.txt} - list all files in the folder with .txt extension with only 1 character before it
+{ls [0-9].txt} - list all files in the folder with one number before .txt in range 0-9 for example 2.txt, 5.txt
+{ls [0-9][A-Z].txt} - list all files in the folder with one number and a letter before .txt for example 2A.txt, 6R.txt
+
+############Creating############
+
+mkdir -p A/B/C - to create files within each other
+mkdir ~/Pulpit/something - to create file inside specific directory
+
+Brace expansion
+
+mkdir {jan,feb,mar,apr,may,jun,jul,aug,sep,oct,nov,dec}_{2022..2026} - created 60 directories with pattern month_year from jan 2022 - dec 2026
+touch {jan,feb,mar,apr,may,jun,jul,aug,sep,oct,nov,dec}_{2021..2026}/file{1..100} - and then it can create 100 files inside each directory named file(from 1-100):)
+
+############Deleting############
+
+rm Documents/file - in other directory by reaching through relative path
+rm file - in the same dir
+rm *.txt - everything ends with .txt
+"""
