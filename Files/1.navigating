@@ -1,0 +1,12 @@
+"""
+###Navigating the file System###
+
+Absolute Path - starting from the base directory for example:
+
+cd /home/jarek/Downloads
+cd ~/Downloads
+
+Relative Path - relative to where you currently are:
+
+cd Downloads
+"""
