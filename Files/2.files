@@ -24,7 +24,24 @@ touch {jan,feb,mar,apr,may,jun,jul,aug,sep,oct,nov,dec}_{2021..2026}/file{1..100
 
 ############Deleting############
 
-rm Documents/file - in other directory by reaching through relative path
-rm file - in the same dir
-rm *.txt - everything ends with .txt
+{rm Documents/file} - in other directory by reaching through relative path
+{rm file} - in the same dir
+{rm *.txt} - everything ends with .txt
+{rm -r file} - deleting recursively with all files inside folder
+{rmdir *} - will remove only emty catalogues from current directory
+{rm -ri} - delete recursevily in interactive mode - asking about each file
+
+############Copying############
+
+{cp file1.txt file2.txt} - copy from - to file
+{cp file1.txt file2.txt copyfolder/} - copy from to directory
+{cp copyfolder/* .} - copy everrything from copyfolder to current directory
+{cp -r github/ ~/Pulpit} - move recursively github folder and all files to Pulpit directory
+
+############Moving############
+
+{mv oldfile.txt newfile.txt} - renaming from - to
+{mv oldfolder newfolder} - renaming directories from - to
+{mv copyfolder/* .} - move content of copyfolder to current directory
+{mv ~/Pulpit/copyfolder/ ./newfolder} - copyfolder has been renamed to newfolder and moved to current working directory with all its content
 """
