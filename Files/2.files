@@ -44,4 +44,14 @@ touch {jan,feb,mar,apr,may,jun,jul,aug,sep,oct,nov,dec}_{2021..2026}/file{1..100
 {mv oldfolder newfolder} - renaming directories from - to
 {mv copyfolder/* .} - move content of copyfolder to current directory
 {mv ~/Pulpit/copyfolder/ ./newfolder} - copyfolder has been renamed to newfolder and moved to current working directory with all its content
+
+############Locate############
+
+{locate *.txt} - search for all files ending .txt in the system files db
+
+############Find############
+
+
+
+
 """
