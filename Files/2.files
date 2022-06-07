@@ -87,9 +87,18 @@ touch {jan,feb,mar,apr,may,jun,jul,aug,sep,oct,nov,dec}_{2021..2026}/file{1..100
 ############File archiving############
 
 1.Make a tarball
+{tar -cvf mytarball.tar *txt} - create, verbose, create archive with given filename mytarball.tar - all txt files, also to compress from here use -j for bz2 and -z for gzip
+{tar -tf mytarball.tar} - to check what's inside -t option
+2.To extract tarball
+{tar -xvf mytarball.tar} -x to extract, also to decompress in one go use -j for bz2 and -z for gzip
+2.Compress with either gzip(faster but lower compression rate or bzip2 slower but better compression)
+{gzip mytarball.tar} - to compress tar with gzip
+{gunzip mytarball.tar.gz} - to unzip back to tar
+{bzip2 mytarball.tar} - compress with bzip2
+{bunzip2 mytarball.tar} - decmpress with bzip2
 
+For zip compress files (windows compatible)
 
-
-
-
+{zip myzipfile *txt} - to compress with zip
+{unzip myzipfile *txt} - to decompress with zip
 """
