@@ -51,7 +51,13 @@ touch {jan,feb,mar,apr,may,jun,jul,aug,sep,oct,nov,dec}_{2021..2026}/file{1..100
 
 ############Find############
 
-
-
+{find} - starts in current directory to infinite depth
+{find ~/Documents} - inside specific folder
+{find . -maxdepth 1} - up to 1 depth - which is current working directory, 2 for 1 level deeper etc
+{find . -type f} - list files only (f - files, d - directories)
+{find . -maxdepth 1 -type d} - combines, only current wd and type directories
+{find -name "something.pdf"} - find by file name
+{find -name "*.pdf"} - find by name with wildcard etc
+{find -type f -size +700M} - find files larger than 700mb
 
 """
