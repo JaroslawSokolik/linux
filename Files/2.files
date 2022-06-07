@@ -61,4 +61,35 @@ touch {jan,feb,mar,apr,may,jun,jul,aug,sep,oct,nov,dec}_{2021..2026}/file{1..100
 {find -type f -size +700M} - find files larger than 700mb
 {find -name "*.jpg" -exec cp {} ~/Desktop/ccc \;} execute command on each file that has been found - copy to folder
 
+############Concatenate############
+{cat file1 file2} - reads the file content
+{head -n 3 file} - read first 3 lines
+{tail -n 3 file} - read last 3 lines
+{less file} - read one page at a time
+
+############Sorting############
+
+{sort text.txt} - default behaviour, sort a-z
+{sort -r text.txt} - sort reversed z-a
+{sort -n text.txt} - sort by value, "r" for reversed
+{sort -u text.txt} - only show unique values
+
+############Sorting Data############
+{ll | sort -k 5nr} - ll in directory with sorting by file size - which is column 5, by number - reversed
+
+############Word seach - grep############
+
+{grep word document.txt} - grep word from text file
+{grep -c word document.txt} - grep how many time search word occured
+{grep "multiple words" document.txt} - grep how many time search word occured
+{grep -v word document.txt} - grep lines that does not contain word
+
+############File archiving############
+
+1.Make a tarball
+
+
+
+
+
 """
