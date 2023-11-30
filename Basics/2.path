@@ -5,6 +5,11 @@ which {command_name} - to check folder location of the command
 
 Command struture:
 
-command options input
+command options input - sometimes options or input is not required
 
 ls -la ~/Downloads
+
+echo "input" - without options
+
+date -u - without input, short option flag
+date --universal - without input, long option flag
