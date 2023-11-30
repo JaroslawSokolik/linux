@@ -1,0 +1,27 @@
+-- Man is broken into 8 sections --
+
+Usage 1:
+
+man -k which
+
+Example output: 
+
+which (1)            - locates the command
+which.debianutils (1) - locates the command
+getcpu (2)           - determine CPU and NUMA node on which the calling threa...
+getgrouplist (3)     - get list of groups to which a user belongs
+git-sparse-checkout (1) - Initialize and modify the sparse-checkout configura...
+ifcfg (8)            - simplistic script which replaces ifconfig IP management
+IO::AtomicFile (3pm) - write a file which is updated atomically
+lcf (1)              - Determine which of the historical versions of a config...
+pam_exec (8)         - PAM module which calls an external command
+pam_warn (8)         - PAM module which logs all PAM items if called
+sched_getcpu (3)     - determine CPU on which the calling thread is running
+securetty (5)        - list of terminals on which root is allowed to login
+sol (6)              - a collection of card games which are easy to play with...
+URI::WithBase (3pm)  - URIs which remember their base
+
+Section in parenteses
+
+Usage 2:
+
