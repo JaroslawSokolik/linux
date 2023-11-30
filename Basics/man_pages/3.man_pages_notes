@@ -25,3 +25,6 @@ Section in parenteses
 
 Usage 2:
 
+command [-a | f ] <input> ...
+
+command with either option a or f with mandatory input which can be more than one
