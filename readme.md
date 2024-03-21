@@ -1,1 +1,1 @@
-linux automation
+Linux personal notes
